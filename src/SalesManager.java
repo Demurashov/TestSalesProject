@@ -14,19 +14,19 @@ public class SalesManager {
         }
         return max;
     }
-    public int min() {
-        int min = sales[0];
-        for (int sale : sales) {
+    public long min() {
+        long min = sales[0];
+        for (long sale : sales) {
             if (sale < min) {
                 min = sale;
             }
         }
         return min;
     }
-    public int shortMiddle(){
-        int mid=0;
-        int summ=0;
-        for (int sale:sales) {
+    public long shortMiddle(){
+        long mid=0;
+        long summ=0;
+        for (long sale:sales) {
             summ+=sale;
         }
         mid=(summ-min()-max()/(sales.length-2));
