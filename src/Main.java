@@ -1,6 +1,6 @@
 
 public class Main {
-    private static int[] sales = {10, 5, 3, 1, 18, 4, 6, 0};
+    private static long[] sales = {10, 5, 3, 1, 18, 4, 6, 0};
 
     public static void main(String[] args) {
         SalesManager manager = new SalesManager(sales);
